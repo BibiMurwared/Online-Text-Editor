@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JQueryTextEditor", "JQueryTextEditor.csproj", "{227D05BC-3BDA-4C32-B6BA-00EBAAA4DCB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{227D05BC-3BDA-4C32-B6BA-00EBAAA4DCB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{227D05BC-3BDA-4C32-B6BA-00EBAAA4DCB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{227D05BC-3BDA-4C32-B6BA-00EBAAA4DCB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{227D05BC-3BDA-4C32-B6BA-00EBAAA4DCB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E68821C9-3D90-424B-9DB5-E7A530C908D3}
+	EndGlobalSection
+EndGlobal
