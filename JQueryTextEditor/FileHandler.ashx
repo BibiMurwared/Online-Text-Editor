@@ -1,5 +1,14 @@
 <%@ WebHandler Language="C#" Class="FileHandler" %>
 
+/* 
+ * FILE: FileHandler.ashx
+ * PROJECT: PROG2001 - Assignment #5
+ * PROGRAMMER: Rodrigo Gomes
+ * FIRST VERSION: 2025-12-01
+ * DESCRIPTION: This handler receives AJAX requests from the web page.It reads the action sent by the client and chooses what to do.
+ * It can return the list of files, return file text, or save a file. All information sent back to the page is formatted as json.
+ */
+
 using System;
 using System.Collections.Generic;
 using System.IO;

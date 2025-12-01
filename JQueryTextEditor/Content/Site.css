@@ -1,27 +1,96 @@
-﻿.editor-container {
+﻿/* 
+ * FILE: Site.css
+ * PROJECT: PROG2001 - Assignment #5
+ * PROGRAMMER: Bibi Muwared
+ * DATE: 2025-12-01
+ * DESCRIPTION: Styles for the online text editor.Controls colours, layout, and the look of the page.
+ */
+
+.editor-container {
     width: 80%;
     margin: 40px auto;
-    background: #fff;
+    background: linear-gradient(135deg, #f7fcff, #e6f7ff);
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.15);
+    border: 2px solid #b3e0ff;
 }
 
+.editor-container h2 {
+        text-align: center;
+        color: #005a8d;
+        font-family: Arial, sans-serif;
+        margin-bottom: 20px;
+    }
+
 textarea {
-    width: 100%;
+    width: 80%; 
+    max-width: 900px;
+    margin: 0 auto;
     height: 400px;
     font-family: monospace;
-    font-size: 14px;
-    padding: 10px;
+    font-size: 15px;
+    padding: 12px;
+    background: #ffffff;
+    border: 2px solid #bde0ff;
+    border-radius: 10px;
+    box-shadow: inset 0 2px 5px rgba(0,0,0,0.1);
+    display: block;
+    margin: 0 auto;
 }
+
 
 button {
     margin: 5px;
-    padding: 6px 12px;
+    padding: 8px 15px;
     cursor: pointer;
+    background-color: #4a90e2;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 14px;
+    transition: 0.2s ease;
 }
+
+ 
+ button:hover {
+        background-color: #357ac9;
+        transform: scale(1.04);
+    }
+
+
+
+#btnSaveAs {
+    background-color: #5cb85c;
+}
+
+#btnSaveAs:hover {
+        background-color: #4cae4c;
+    }
+
+#newFileName {
+    padding: 8px;
+    border: 2px solid #bde0ff;
+    border-radius: 6px;
+    font-size: 14px;
+    background: #ffffff;
+}
+
 
 #status {
     margin-top: 10px;
+    font-weight: bold;
+    padding: 8px;
+    background: #e8f6ff;
+    border-left: 4px solid #4db8ff;
+    border-radius: 6px;
+    color: #004b70;
+}
+
+#saveAsError {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-left: 5px;
     font-weight: bold;
 }
